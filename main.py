@@ -18,7 +18,10 @@ def winner2():
   print("\nPlayer 2 is a winner! 🥳🥳🥳 ")
 def tie():
   print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
-  print("The game ended in a tie. Try again guys! 🧐")
+  print("The game ended in a tie. Try again guys!")
+def invalidMove():
+    print("\nSomeone made invalid move. 🧐 Try again guys! ")
+
   
   
 #Battle time:
@@ -50,7 +53,7 @@ elif (player2 == "s" or player2 == "S") and (player1 == "s" or player1 == "S"):
   tie()
 
 else:
-  print("gon sie")
+  invalidMove()
   
     
 
