@@ -7,19 +7,17 @@ print("*"*7, "🗿 📃 ✂️", " GAME", "*"*7, "\n")
 player1 = input("Player 1: Select: R or P or S\n")
 player2 = input("Player 2: Select: R or P or S\n")
 
-print
+print("\n", "*"*7, "Battle time 🥁🥁🥁", "*"*7)
+
 #Summary text function
-
 def winner1():
-  print("\nPlayer 1:", player1, "vs", "Player 2:", player2)
-  print("\nPlayer 1 is a winner! 🥳 ")
-
+  print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
+  print("\nPlayer 1 is a winner! 🥳🥳🥳 ")
 def winner2():
-  print("\nPlayer 1:", player1, "vs", "Player 2:", player2)
-  print("\nPlayer 1 is a winner! 🥳 ")
-
+  print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
+  print("\nPlayer 2 is a winner! 🥳🥳🥳 ")
 def tie():
-  print("\nPlayer 1:", player1, "vs", "Player 2:", player2)
+  print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
   print("The game ended in a tie. Try again guys! 🧐")
   
   
