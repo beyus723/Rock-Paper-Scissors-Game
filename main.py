@@ -2,25 +2,25 @@ from getpass import getpass as input
 
 #Selecting options - R P or S
 
-print("*"*7, "🗿 📃 ✂️", " GAME", "*"*7, "\n")
+print("*"*7, " SPECTACULAR GAME -", "🗿 📃 ✂️ ", "*"*7, "\n")
 
-player1 = input("Player 1: Select: R or P or S\n")
-player2 = input("Player 2: Select: R or P or S\n")
+player1 = input("Player 1: \nPlease select one of the following: R or P or S\n")
+player2 = input("Player 2: \nPlease select one of the following: R or P or S\n")
 
-print("\n", "*"*7, "Battle time 🥁🥁🥁", "*"*7)
+print("\n", "*"*7, "Battle time", "*"*7)
 
 #Summary text function
 def winner1():
   print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
-  print("\nPlayer 1 is a winner! 🥳🥳🥳 ")
+  print("\n", "🥁"*12, "\n\nPlayer 1 is a winner! 🥳🥳🥳 ")
 def winner2():
   print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
-  print("\nPlayer 2 is a winner! 🥳🥳🥳 ")
+  print("\n", "🥁"*12, "\n\nPlayer 2 is a winner! 🥳🥳🥳 ")
 def tie():
   print("\033[1;37m\nPlayer 1:", player1, "\033[1;32m  /VS/ ", "\033[1;37m Player 2:", player2)
-  print("The game ended in a tie. Try again guys!")
+  print("\n", "🥁"*12, "\n\nThe game ended in a tie. Try again guys!")
 def invalidMove():
-    print("\nSomeone made invalid move. 🧐 Try again guys! ")
+    print("\n", "🥁"*12, "\n\nSomeone made invalid move. 🧐 Try again guys! ")
 
   
   
